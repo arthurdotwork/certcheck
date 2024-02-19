@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="11" failures="0" errors="0" time="2.099994">
+	<testsuite tests="0" failures="0" time="0.000000" name="github.com/arthureichelberger/certcheck" timestamp="2024-02-19T18:10:09Z">
+		<properties>
+			<property name="go.version" value="go1.21.4 darwin/arm64"></property>
+		</properties>
+	</testsuite>
+	<testsuite tests="11" failures="0" time="1.806000" name="github.com/arthureichelberger/certcheck/certcheck" timestamp="2024-02-19T18:10:09Z">
+		<properties>
+			<property name="go.version" value="go1.21.4 darwin/arm64"></property>
+		</properties>
+		<testcase classname="github.com/arthureichelberger/certcheck/certcheck" name="TestFormatExpirationDate/it_should_return_the_expiration_date_in_days" time="0.000000"></testcase>
+		<testcase classname="github.com/arthureichelberger/certcheck/certcheck" name="TestParse/it_should_return_an_error_if_the_link_is_empty" time="0.000000"></testcase>
+		<testcase classname="github.com/arthureichelberger/certcheck/certcheck" name="TestFormatExpirationDate/it_should_return_the_expiration_date_in_hours" time="0.000000"></testcase>
+		<testcase classname="github.com/arthureichelberger/certcheck/certcheck" name="TestParse/it_should_validate_the_link_without_the_scheme" time="0.000000"></testcase>
+		<testcase classname="github.com/arthureichelberger/certcheck/certcheck" name="TestParse" time="0.000000"></testcase>
+		<testcase classname="github.com/arthureichelberger/certcheck/certcheck" name="TestFormatExpirationDate/it_should_return_the_expiration_date_in_minutes" time="0.000000"></testcase>
+		<testcase classname="github.com/arthureichelberger/certcheck/certcheck" name="TestFormatExpirationDate/it_should_return_the_expiration_date_in_a_minute" time="0.000000"></testcase>
+		<testcase classname="github.com/arthureichelberger/certcheck/certcheck" name="TestFormatExpirationDate" time="0.000000"></testcase>
+		<testcase classname="github.com/arthureichelberger/certcheck/certcheck" name="TestChecker/it_should_return_an_error_if_it_can_not_do_the_request" time="0.000000"></testcase>
+		<testcase classname="github.com/arthureichelberger/certcheck/certcheck" name="TestChecker/it_should_return_the_certificates" time="0.610000"></testcase>
+		<testcase classname="github.com/arthureichelberger/certcheck/certcheck" name="TestChecker" time="0.610000"></testcase>
+	</testsuite>
+</testsuites>

@@ -5,7 +5,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/arthureichelberger/certcheck"
+	"github.com/arthureichelberger/certcheck/certcheck"
 	"github.com/stretchr/testify/require"
 )
 

@@ -19,7 +19,7 @@ func Check(ctx context.Context, addr *url.URL) ([]Certificate, error) {
 	}
 	defer resp.Body.Close()
 
-	var certs []Certificate
+	certs := make([]Certificate, 0, len(resp.TLS.PeerCertificates))
 	for _, cert := range resp.TLS.PeerCertificates {
 		certs = append(certs, Certificate{
 			CommonName: cert.Subject.CommonName,

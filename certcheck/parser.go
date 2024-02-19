@@ -15,5 +15,10 @@ func Parse(link string) (*url.URL, error) {
 		link = "https://" + link
 	}
 
-	return url.Parse(link)
+	parsedURL, err := url.Parse(link)
+	if err != nil {
+		return nil, fmt.Errorf("failed to parse URL: %w", err)
+	}
+
+	return parsedURL, nil
 }

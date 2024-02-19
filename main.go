@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/arthureichelberger/certcheck"
+	"github.com/arthureichelberger/certcheck/certcheck"
 	"github.com/rs/zerolog/log"
 )
 
